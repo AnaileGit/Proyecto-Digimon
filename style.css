@@ -1,0 +1,93 @@
+.nav{
+    display: flex;
+    background: linear-gradient(to bottom, #3333cc 0%, #33ccff 100%);
+    color: rgb(244, 248, 10);
+    font-family:'Bungee Shade', cursive;
+    text-shadow: 2px 11px 5px rgb(113, 108, 108);
+    height:100px;
+    padding:0.5px;
+    justify-content: flex-start;
+    box-shadow:  0px 15px 30px 0px rgba(44, 43, 43, 0.6);
+   
+}
+
+body{
+    background-color: rgb(177, 174, 174);
+}
+
+
+.titulo{
+    width: 700px;
+    height: 100px;
+    margin-left: 50px
+}
+
+.fan{
+    color: yellowgreen;
+    margin-left: 128px;
+    margin-top: 35px;
+}
+
+.game{
+    color: rgb(249, 30, 30);
+    margin: 34px;
+}
+
+.amigos{
+    margin-left: 288px;
+}
+
+#main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.tarjeta{
+    display: flex;
+    margin: 5px;
+    width: 480px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    color: black;
+    border-radius: 9px;
+    flex-wrap: wrap;
+}
+
+.container-img:hover{
+    transition: 0.2s;
+box-shadow: 2px rgb(14, 232, 148);
+padding-top: 20px;
+}
+
+.info{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.tipo{
+    font-family:'Yanone Kaffeesatz', sans-serif; 
+    font-size: 40px;
+    text-shadow: 2px 5px 5px rgb(139, 2, 2);
+}
+.tipo-2{
+    font-size: 20px;
+    margin-bottom: 25px;
+    align-self: flex-end;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+ 
+footer{
+    display: flex;
+    background-color:black;
+    color: rgb(249, 237, 2);
+    height: 35px;
+    margin-top: 10px;
+    justify-content: center;
+    padding-top: 10px;
+    box-shadow:0px 15px 30px 0px rgb(107, 105, 105);
+}
